@@ -1,0 +1,76 @@
+DEBUG 2018-12-21 22:18:57,690 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-21 22:18:57,796 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-12-21 22:18:57,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Graby.Life.Web.Host.Startup.LifeWebHostModule, Graby.Life.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Graby.Life.LifeWebCoreModule, Graby.Life.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Graby.Life.LifeApplicationModule, Graby.Life.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Graby.Life.LifeCoreModule, Graby.Life.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Graby.Life.EntityFrameworkCore.LifeEntityFrameworkModule, Graby.Life.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:57,824 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-12-21 22:18:57,894 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-21 22:18:57,894 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-21 22:18:57,894 [1    ] o.Configuration.LanguageManagementConfig - Converted Life (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-21 22:18:57,894 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-21 22:18:58,256 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Graby.Life.EntityFrameworkCore.LifeDbContext, Graby.Life.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-21 22:18:59,154 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-21 22:18:59,283 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-21 22:18:59,323 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-21 22:18:59,342 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Life
+DEBUG 2018-12-21 22:18:59,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-21 22:18:59,529 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-21 22:18:59,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-12-21 22:18:59,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-12-21 22:18:59,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Users.Dto.CreateUserDto
+DEBUG 2018-12-21 22:18:59,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Users.Dto.UserDto
+DEBUG 2018-12-21 22:18:59,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-21 22:18:59,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-21 22:18:59,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Roles.Dto.CreateRoleDto
+DEBUG 2018-12-21 22:18:59,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Roles.Dto.PermissionDto
+DEBUG 2018-12-21 22:18:59,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.Roles.Dto.RoleDto
+DEBUG 2018-12-21 22:18:59,584 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-12-21 22:18:59,584 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Graby.Life.MultiTenancy.Dto.TenantDto
+INFO  2018-12-21 22:19:06,346 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-12-21 22:19:06,346 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-12-21 22:19:06,439 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.7462ms 200 
+INFO  2018-12-21 22:19:09,886 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Graby.Life.Web.Host.Controllers.HomeController.Index (Graby.Life.Web.Host)
+INFO  2018-12-21 22:19:10,956 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Graby.Life.Web.Host.Controllers.HomeController.Index (Graby.Life.Web.Host) - Validation state: Valid
+INFO  2018-12-21 22:19:10,962 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Graby.Life.Web.Host.Controllers.HomeController.Index (Graby.Life.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.2235ms.
+INFO  2018-12-21 22:19:11,095 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-12-21 22:19:11,109 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Graby.Life.Web.Host.Controllers.HomeController.Index (Graby.Life.Web.Host) in 1217.4628ms
+INFO  2018-12-21 22:19:11,131 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4794.2542ms 302 
+INFO  2018-12-21 22:19:11,150 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-12-21 22:19:11,162 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.0332ms 301 
+INFO  2018-12-21 22:19:11,182 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-12-21 22:19:11,214 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.3078ms 200 text/html
+INFO  2018-12-21 22:19:11,279 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-12-21 22:19:11,282 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-12-21 22:19:11,284 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-12-21 22:19:11,323 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-12-21 22:19:11,325 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-12-21 22:19:11,357 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\研究性代码\ZhangTongBaoWorkSpace\Graby.Life\4.3.1\aspnet-core\src\Graby.Life.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-12-21 22:19:11,358 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\研究性代码\ZhangTongBaoWorkSpace\Graby.Life\4.3.1\aspnet-core\src\Graby.Life.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-12-21 22:19:11,362 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.1555ms 200 application/javascript
+INFO  2018-12-21 22:19:11,363 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.2354ms 200 application/javascript
+INFO  2018-12-21 22:19:11,409 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-12-21 22:19:11,428 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-12-21 22:19:11,438 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 156.2704ms 200 application/javascript
+INFO  2018-12-21 22:19:11,443 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 160.6669ms 200 text/css
+INFO  2018-12-21 22:19:11,454 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-12-21 22:19:11,457 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 176.0799ms 200 application/javascript
+INFO  2018-12-21 22:19:12,244 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-12-21 22:19:12,474 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-12-21 22:19:12,486 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-12-21 22:19:12,489 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.5155ms 200 image/png
+INFO  2018-12-21 22:19:12,496 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-12-21 22:19:12,517 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-12-21 22:19:12,523 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.4866ms 200 image/png
+INFO  2018-12-21 22:19:12,602 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 358.1986ms 200 application/json;charset=utf-8
